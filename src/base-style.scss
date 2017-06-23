@@ -1,0 +1,33 @@
+@import "./theme/import.scss";
+
+// Base styling.
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+.App {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  height: 100%;
+
+  .topbar-wrapper {
+    flex: 0 1 auto;
+  }
+
+  .app-wrapper {
+    flex: 1 1 auto;
+    align-self: stretch;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+// Override the stock menu borders.
+.ui.top.attached.menu {
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid $border-color;
+}

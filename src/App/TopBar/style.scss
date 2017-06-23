@@ -1,0 +1,8 @@
+@import "../../theme/import";
+
+.TopBar {
+  &__profile-picture {
+    height: 40px !important;
+    width: 40px !important;
+  }
+}
