@@ -2,7 +2,7 @@
   "name": "prototype",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://liamross.ca",
+  "homepage": "http://liamross.github.io/pantry",
   "dependencies": {
     "history": "^4.6.3",
     "prop-types": "^15.5.10",
